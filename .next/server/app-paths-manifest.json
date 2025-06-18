@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/service/page": "app/service/page.js",
+  "/disclaimer/page": "app/disclaimer/page.js",
+  "/term/page": "app/term/page.js"
+}
