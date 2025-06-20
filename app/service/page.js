@@ -16,7 +16,7 @@ const ServicesPage = () => {
       title: 'AI-Powered Automation',
       category: 'automation',
       description: 'Our intelligent automation solutions streamline your workflows and eliminate repetitive tasks.',
-      fullDescription: '123hpsmartassistant provides cutting-edge AI automation that learns from your patterns to optimize business processes. Our solution reduces manual work by up to 80% while maintaining 99.9% accuracy. Perfect for data entry, customer service, and operational workflows.',
+      fullDescription: 'Hewlett Printers Solution provides cutting-edge AI automation that learns from your patterns to optimize business processes. Our solution reduces manual work by up to 80% while maintaining 99.9% accuracy. Perfect for data entry, customer service, and operational workflows.',
       icon: (
         <svg className="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
@@ -104,7 +104,7 @@ const ServicesPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-100">
       <Head>
-        <title>Our Services - 123hpsmartassistant</title>
+        <title>Our Services - Hewlett Printers Solution</title>
         <meta name="description" content="Discover our smart solutions for your business" />
       </Head>
 
@@ -113,7 +113,7 @@ const ServicesPage = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             <span className="block">Smart Solutions by</span>
-            <span className="block text-indigo-600">123hpsmartassistant</span>
+            <span className="block text-indigo-600">Hewlett Printers Solution</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Discover how our AI-powered services can transform your business operations and drive growth.
@@ -226,7 +226,7 @@ const ServicesPage = () => {
             Ready to transform your business?
           </h2>
           <p className="text-indigo-100 max-w-2xl mx-auto mb-8">
-            Our team at 123hpsmartassistant is ready to help you implement the perfect solution for your needs.
+            Our team at  Hewlett Printers Solutionis ready to help you implement the perfect solution for your needs.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <button className="px-6 py-3 bg-white text-indigo-700 font-medium rounded-lg hover:bg-gray-100 transition duration-200">
@@ -243,3 +243,4 @@ const ServicesPage = () => {
 };
 
 export default ServicesPage;
+

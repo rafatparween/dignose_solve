@@ -70,6 +70,8 @@
 
 // export default Contact;
 
+
+
 "use client"
 import { useState } from 'react';
 import Head from 'next/head';
@@ -110,7 +112,7 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-100">
       <Head>
-        <title>Contact Us - 123hpsmartassistant</title>
+        <title>Contact Us -Hewlett Printers Solution</title>
         <meta name="description" content="Get in touch with our team" />
       </Head>
 
@@ -119,7 +121,7 @@ const ContactPage = () => {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Contact <span className="text-indigo-600">123hpsmartassistant</span>
+            Contact <span className="text-indigo-600">Hewlett Printers Solution</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             We'd love to hear from you! Reach out for support, partnerships, or just to say hello.
@@ -220,8 +222,8 @@ const ContactPage = () => {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-medium text-gray-900">Email</h3>
-                    <p className="mt-1 text-gray-600">support@123hpsmartassistant.com</p>
-                    <p className="mt-1 text-gray-600">sales@123hpsmartassistant.com</p>
+                    <p className="mt-1 text-gray-600">support@Hewlett Printers Solution.com</p>
+                    <p className="mt-1 text-gray-600">sales@Hewlett Printers Solution.com</p>
                   </div>
                 </div>
 

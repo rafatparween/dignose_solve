@@ -38,99 +38,141 @@
 // }
 
 
-"use client"
+// "use client"
 
-import Head from 'next/head';
+// import Head from 'next/head';
 
-const DisclaimerPage = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-100">
-      <Head>
-        <title>Disclaimer - 123hpsmartassistant</title>
-        <meta name="description" content="Legal disclaimer for 123hpsmartassistant services" />
-      </Head>
+// const DisclaimerPage = () => {
+//   return (
+//     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-100">
+//       <Head>
+//         <title>Disclaimer - 123hpsmartassistant</title>
+//         <meta name="description" content="Legal disclaimer for 123hpsmartassistant services" />
+//       </Head>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
-        <div className="bg-white shadow-xl rounded-lg overflow-hidden">
-          {/* Header */}
-          <div className="bg-indigo-700 px-6 py-8 sm:px-10 sm:py-12">
-            <div className="text-center">
-              <h1 className="text-3xl md:text-4xl font-bold text-white">
-                Legal Disclaimer
-              </h1>
-              <p className="mt-3 text-lg text-indigo-200">
-                Important information regarding your use of 123hpsmartassistant services
-              </p>
-            </div>
-          </div>
+//       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+//         <div className="bg-white shadow-xl rounded-lg overflow-hidden">
+//           {/* Header */}
+//           <div className="bg-indigo-700 px-6 py-8 sm:px-10 sm:py-12">
+//             <div className="text-center">
+//               <h1 className="text-3xl md:text-4xl font-bold text-white">
+//                 Legal Disclaimer
+//               </h1>
+//               <p className="mt-3 text-lg text-indigo-200">
+//                 Important information regarding your use of 123hpsmartassistant services
+//               </p>
+//             </div>
+//           </div>
 
-          {/* Content */}
-          <div className="px-6 py-8 sm:px-10 sm:py-12">
-            <div className="prose prose-indigo max-w-none">
-              <h2 className="text-2xl font-bold text-gray-900">Website Disclaimer</h2>
-              <p className="mt-4">
-                The information provided by 123hpsmartassistant ("we," "us," or "our") on our website, mobile application, or through any of our services is for general informational purposes only. All information is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information.
-              </p>
+//           {/* Content */}
+//           <div className="px-6 py-8 sm:px-10 sm:py-12">
+//             <div className="prose prose-indigo max-w-none">
+//               <h2 className="text-2xl font-bold text-gray-900">Website Disclaimer</h2>
+//               <p className="mt-4">
+//                 The information provided by 123hpsmartassistant ("we," "us," or "our") on our website, mobile application, or through any of our services is for general informational purposes only. All information is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information.
+//               </p>
 
-              <h2 className="mt-8 text-2xl font-bold text-gray-900">No Liability</h2>
-              <p className="mt-4">
-                Under no circumstance shall we have any liability to you for any loss or damage of any kind incurred as a result of the use of our services or reliance on any information provided. Your use of our services and your reliance on any information is solely at your own risk.
-              </p>
+//               <h2 className="mt-8 text-2xl font-bold text-gray-900">No Liability</h2>
+//               <p className="mt-4">
+//                 Under no circumstance shall we have any liability to you for any loss or damage of any kind incurred as a result of the use of our services or reliance on any information provided. Your use of our services and your reliance on any information is solely at your own risk.
+//               </p>
 
-              <h2 className="mt-8 text-2xl font-bold text-gray-900">External Links Disclaimer</h2>
-              <p className="mt-4">
-                Our services may contain links to external websites that are not provided or maintained by or in any way affiliated with us. Please note that we do not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.
-              </p>
+//               <h2 className="mt-8 text-2xl font-bold text-gray-900">External Links Disclaimer</h2>
+//               <p className="mt-4">
+//                 Our services may contain links to external websites that are not provided or maintained by or in any way affiliated with us. Please note that we do not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.
+//               </p>
 
-              <h2 className="mt-8 text-2xl font-bold text-gray-900">Professional Disclaimer</h2>
-              <p className="mt-4">
-                Our services cannot and do not contain specific professional advice. The information is provided for general informational and educational purposes only and is not a substitute for professional advice. Accordingly, before taking any actions based upon such information, we encourage you to consult with the appropriate professionals.
-              </p>
+//               <h2 className="mt-8 text-2xl font-bold text-gray-900">Professional Disclaimer</h2>
+//               <p className="mt-4">
+//                 Our services cannot and do not contain specific professional advice. The information is provided for general informational and educational purposes only and is not a substitute for professional advice. Accordingly, before taking any actions based upon such information, we encourage you to consult with the appropriate professionals.
+//               </p>
 
-              <h2 className="mt-8 text-2xl font-bold text-gray-900">Testimonials Disclaimer</h2>
-              <p className="mt-4">
-                Our services may contain testimonials by users of our products and/or services. These testimonials reflect the real-life experiences and opinions of such users. However, the experiences are personal to those particular users, and may not necessarily be representative of all users of our products and/or services. We do not claim, and you should not assume, that all users will have the same experiences.
-              </p>
+//               <h2 className="mt-8 text-2xl font-bold text-gray-900">Testimonials Disclaimer</h2>
+//               <p className="mt-4">
+//                 Our services may contain testimonials by users of our products and/or services. These testimonials reflect the real-life experiences and opinions of such users. However, the experiences are personal to those particular users, and may not necessarily be representative of all users of our products and/or services. We do not claim, and you should not assume, that all users will have the same experiences.
+//               </p>
 
-              <h2 className="mt-8 text-2xl font-bold text-gray-900">Errors and Omissions Disclaimer</h2>
-              <p className="mt-4">
-                While we have made every attempt to ensure that the information contained in our services has been obtained from reliable sources, 123hpsmartassistant is not responsible for any errors or omissions or for the results obtained from the use of this information.
-              </p>
+//               <h2 className="mt-8 text-2xl font-bold text-gray-900">Errors and Omissions Disclaimer</h2>
+//               <p className="mt-4">
+//                 While we have made every attempt to ensure that the information contained in our services has been obtained from reliable sources, 123hpsmartassistant is not responsible for any errors or omissions or for the results obtained from the use of this information.
+//               </p>
 
-              <h2 className="mt-8 text-2xl font-bold text-gray-900">Fair Use Disclaimer</h2>
-              <p className="mt-4">
-                Our services may contain copyrighted material the use of which has not always been specifically authorized by the copyright owner. We are making such material available in our efforts to advance understanding of technology, business, and other related subjects. We believe this constitutes a "fair use" of any such copyrighted material.
-              </p>
+//               <h2 className="mt-8 text-2xl font-bold text-gray-900">Fair Use Disclaimer</h2>
+//               <p className="mt-4">
+//                 Our services may contain copyrighted material the use of which has not always been specifically authorized by the copyright owner. We are making such material available in our efforts to advance understanding of technology, business, and other related subjects. We believe this constitutes a "fair use" of any such copyrighted material.
+//               </p>
 
-              <h2 className="mt-8 text-2xl font-bold text-gray-900">No Warranties</h2>
-              <p className="mt-4">
-                All services are provided "as is," with all faults, and 123hpsmartassistant makes no express or implied representations or warranties of any kind related to our services or the materials contained on our services. Additionally, nothing contained on our services shall be construed as providing consult or advice to you.
-              </p>
+//               <h2 className="mt-8 text-2xl font-bold text-gray-900">No Warranties</h2>
+//               <p className="mt-4">
+//                 All services are provided "as is," with all faults, and 123hpsmartassistant makes no express or implied representations or warranties of any kind related to our services or the materials contained on our services. Additionally, nothing contained on our services shall be construed as providing consult or advice to you.
+//               </p>
 
-              <h2 className="mt-8 text-2xl font-bold text-gray-900">Contact Us</h2>
-              <p className="mt-4">
-                If you have any questions about this Disclaimer, you can contact us:
-              </p>
-              <ul className="mt-2 list-disc list-inside">
-                <li>By email: legal@123hpsmartassistant.com</li>
-                <li>By visiting our contact page</li>
-                <li>By mail: 123 Legal Street, San Francisco, CA 94107</li>
-              </ul>
+//               <h2 className="mt-8 text-2xl font-bold text-gray-900">Contact Us</h2>
+//               <p className="mt-4">
+//                 If you have any questions about this Disclaimer, you can contact us:
+//               </p>
+//               <ul className="mt-2 list-disc list-inside">
+//                 <li>By email: legal@123hpsmartassistant.com</li>
+//                 <li>By visiting our contact page</li>
+//                 <li>By mail: 123 Legal Street, San Francisco, CA 94107</li>
+//               </ul>
 
-              <div className="mt-8 p-4 bg-indigo-50 rounded-lg">
-                <p className="font-medium text-indigo-700">
-                  Last updated: June 18, 2023
+//               <div className="mt-8 p-4 bg-indigo-50 rounded-lg">
+//                 <p className="font-medium text-indigo-700">
+//                   Last updated: June 18, 2023
+//                 </p>
+//                 <p className="mt-2 text-indigo-600">
+//                   This disclaimer was created using terms from disclaimertemplate.com and modified for our specific needs.
+//                 </p>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </main>
+//     </div>
+//   );
+// };
+
+// export default DisclaimerPage;
+
+
+'use client';
+
+const Disclaimer = () => {
+    return (
+        <div className="bg-white text-gray-800 px-4 md:px-20 py-10 md:py-20">
+            <h1 className="text-3xl md:text-5xl font-bold text-center mb-8 text-blue-900">Disclaimer</h1>
+
+            {/* New Disclaimer Text */}
+            <div className="bg-blue-100 border-l-4 border-blue-500 text-blue-900 p-6 mb-10 rounded-md">
+                <p className="mb-4">
+                    <strong>Hewlett Printers Solution</strong> is an independent informational website and is not affiliated with or endorsed by any printer manufacturers, including but not limited to HP (Hewlett-Packard), Epson, Canon, Brother, or Lexmark.
                 </p>
-                <p className="mt-2 text-indigo-600">
-                  This disclaimer was created using terms from disclaimertemplate.com and modified for our specific needs.
+                <p className="mb-4">
+                    All brand names, trademarks, logos, and product images are the property of their respective owners and are used strictly for informational and reference purposes only.
                 </p>
-              </div>
+                <p>
+                    The troubleshooting guides and content provided on this site are based on general user experiences and known issues. While we strive for accuracy, we do not guarantee that the solutions will resolve your specific problem. For brand-authorized assistance, we recommend contacting the official support channels of your printer manufacturer.
+                </p>
             </div>
-          </div>
+
+            {/* Existing Content */}
+            <div className="space-y-6 text-lg leading-relaxed">
+                <p>
+                    The information provided by <strong>Hewlett Printers Solution</strong> ("we," "us," or "our") on this website is for general informational purposes only. All information on the site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the site.
+                </p>
+                <p>
+                    Under no circumstance shall we have any liability to you for any loss or damage of any kind incurred as a result of the use of the site or reliance on any information provided on the site. Your use of the site and your reliance on any information on the site is solely at your own risk.
+                </p>
+                <p>
+                    The site may contain (or you may be sent through the site) links to other websites or content belonging to or originating from third parties or links to websites and features in banners or other advertising. Such external links are not investigated, monitored, or checked for accuracy, adequacy, validity, reliability, availability, or completeness by us.
+                </p>
+                <p>
+                    We do not warrant, endorse, guarantee, or assume responsibility for the accuracy or reliability of any information offered by third-party websites linked through the site or any website or feature linked in any banner or other advertising. We will not be a party to or in any way be responsible for monitoring any transaction between you and third-party providers of products or services.
+                </p>
+            </div>
         </div>
-      </main>
-    </div>
-  );
+    );
 };
 
-export default DisclaimerPage;
+export default Disclaimer;
