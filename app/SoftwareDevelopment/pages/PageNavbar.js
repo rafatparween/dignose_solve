@@ -169,7 +169,7 @@ export default function PageHeader() {
           <div className="max-w-[1280px] mx-auto flex justify-between items-center h-16">
             {/* Mobile menu button - only visible on mobile */}
             <button
-              className="md:hidden text-white text-3xl"
+              className="md:hidden text-[#0C7173] text-3xl"
               onClick={() => setIsOpen(!isOpen)}
             >
               <FiMenu />
@@ -188,7 +188,7 @@ export default function PageHeader() {
               ].map((item, index) => (
                 <button 
                   key={index}
-                  className="hover:text-gray-300 text-sm sm:text-base md:text-lg font-medium whitespace-nowrap px-3"
+                  className="hover:text-gray-300 sm:text-base md:text-[30px] font-medium whitespace-nowrap px-3 text-[#0C71C3] text-[30px]"
                 >
                   {item}
                 </button>
@@ -204,9 +204,10 @@ export default function PageHeader() {
       )}
       
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-[#1C8DCEED] text-black transform ${
+        className={`fixed top-0 left-0 h-full w-64 bg-[#1C8DCEED] text-[#0C7173] transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out z-50 md:hidden`}
+        } transition-transform duration-300 ease-in-o
+        ut z-50 md:hidden`}
       >
         <div className="h-16 flex items-center justify-end pr-4">
           <button
