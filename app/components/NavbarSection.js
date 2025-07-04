@@ -4,6 +4,8 @@ import Image from 'next/image';
 
 const NavbarSection = () => {
   return (
+    <>
+    <div className='bg-white'>
     <header className="bg-white py-2 h-[72px] ">
       <div className="container mx-auto flex items-center 2xl:ml-[179px] xl:ml-[179px]">
         {/* HP Logo */}
@@ -24,6 +26,8 @@ const NavbarSection = () => {
         </nav>
       </div>
     </header>
+    </div>
+    </>
   );
 };
 

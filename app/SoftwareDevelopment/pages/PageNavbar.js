@@ -244,28 +244,59 @@
 
 
 
+// import Image from 'next/image';
+
+// const PageNavbar = () => {
+//   return (
+//     <header className="bg-white py-2 h-[72px] ">
+//       <div className="container mx-auto flex items-center 2xl:ml-[130px] xl:ml-[179px]">
+//         {/* HP Logo */}
+//         <div className="flex items-center">
+//           <Image
+//             src="/hplogo.jpeg" // Replace with the correct path to your logo
+//             alt="HP Logo"
+//             width={52}
+//             height={52}
+//           />
+//         </div>
+//         {/* Product Links */}
+//         <nav className="flex space-x-8 text-gray-600 text-[16px] 2xl:ml-[13px] xl:ml-[13px]">
+//           <a href="#" className="hover:text-gray-300 sm:text-base md:text-[30px] font-medium whitespace-nowrap px-3 text-[#0C71C3] text-[30px]">Hewlett Printers Solution</a>
+//         </nav>
+//       </div>
+//     </header>
+//   );
+// };
+
+// export default PageNavbar;
+
+
 import Image from 'next/image';
 
 const PageNavbar = () => {
   return (
-    <header className="bg-white py-2 h-[72px] ">
-      <div className="container mx-auto flex items-center 2xl:ml-[130px] xl:ml-[179px]">
-        {/* HP Logo */}
-        <div className="flex items-center">
-          <Image
-            src="/hplogo.jpeg" // Replace with the correct path to your logo
-            alt="HP Logo"
-            width={52}
-            height={52}
-          />
+    <header className="bg-white py-2 w-full">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1165px] mx-auto flex items-center h-[72px] space-x-4">
+          {/* Logo */}
+          <div className="flex-shrink-0">
+            <Image
+              src="/hplogo.jpeg"
+              alt="HP Logo"
+              width={52}
+              height={52}
+              className="w-12 h-12 object-contain"
+            />
+          </div>
+
+          {/* Text beside logo */}
+          <a
+            href="#"
+            className="text-[#0C71C3] font-semibold text-base sm:text-lg md:text-xl lg:text-2xl whitespace-nowrap hover:text-blue-700 transition"
+          >
+            Hewlett Printers Solution
+          </a>
         </div>
-        {/* Product Links */}
-        <nav className="flex space-x-8 text-gray-600 text-[16px] 2xl:ml-[13px] xl:ml-[13px]">
-          <a href="#" className="hover:text-gray-300 sm:text-base md:text-[30px] font-medium whitespace-nowrap px-3 text-[#0C71C3] text-[30px]">Hewlett Printers Solution</a>
-          {/* <a href="#" className="hover:text-[#007DBA]">DeskJet</a>
-          <a href="#" className="hover:text-[#007DBA]">ENVY</a>
-          <a href="#" className="hover:text-[#007DBA]">LaserJet</a> */}
-        </nav>
       </div>
     </header>
   );

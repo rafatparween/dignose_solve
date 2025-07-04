@@ -20,16 +20,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/service/Pages/install/page.js"
-    ],
-    "/service/Pages/install/process/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/service/Pages/install/process/page.js"
-    ],
-    "/service/Pages/install/process/error.html/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/service/Pages/install/process/error.html/page.js"
     ]
   }
 }

@@ -275,7 +275,7 @@ function Printersearch() {
 
   return (
     <>
-      <div className=" px-6 ">
+      <div className=" px-6 bg-white ">
         <NavbarSection/>
       </div>
 
