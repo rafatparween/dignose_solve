@@ -6,9 +6,7 @@ export default function Troubleshoot() {
   const router = useRouter(); 
 
   const handleSetupClick = () => {
-    // router.push('../service/Pages'); // Ensure the path is correct
-    // router.push('../');
-    //  router.push('/contact');
+    router.push('../service/Pages'); // Ensure the path is correct
   };
   return (
     <div className="bg-white h-[430px] flex flex-col items-center justify-center px-4 py-10">
@@ -46,7 +44,6 @@ export default function Troubleshoot() {
 </div>
 
         {/* Right: Text */}
-       
         <div className="lg:w-1/2 text-center lg:text-left">
         <p className="text-[40px] font- text-black mb-2 ">Diagnose and solve</p>
   <div className="flex items-start justify-center lg:justify-start mb-4">

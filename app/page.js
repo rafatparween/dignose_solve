@@ -13,16 +13,6 @@ import Troubleshoot from "./SoftwareDevelopment/pages/Troubleshoot";
 function Home() {
   return (
     <>
-    {/* <PageNavbar/>
-      <PageHeader/>
-      <Troubleshoot/>
-      <SupportTabs/>
-      <PageFooter/>
-      <div className=" mt-[30px]">
-        <JivoChat/>
-
-
-      </div> */}
 
       <PageNavbar/>
       <PageHeader/>
@@ -36,3 +26,5 @@ function Home() {
   )
 }
 export default Home;
+
+
