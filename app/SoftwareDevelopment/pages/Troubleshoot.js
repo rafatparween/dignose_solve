@@ -29,7 +29,7 @@ export default function Troubleshoot() {
   </button> */}
   <div className="flex flex-col items-center gap-6 lg:w-1/2 mb-10 lg:mb-0">
   <Image
-    src="/dignose.avif"
+    src="/newsetup.png"
     alt="Printer"
     width={539}
     height={347}
@@ -39,7 +39,8 @@ export default function Troubleshoot() {
     className="bg-[#007DBD] text-white py-3 px-8 rounded text-lg font-medium hover:bg-blue-300 transition duration-200"
     onClick={handleSetupClick}
   >
-     Click Here For Printer Setup
+     {/* Click Here For Printer Setup */}
+     Click Here For Chat Assistance
   </button>
 </div>
 
