@@ -1,7 +1,6 @@
 {
   "/page": "app/page.js",
-  "/service/page": "app/service/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/disclaimer/page": "app/disclaimer/page.js",
-  "/privacy/page": "app/privacy/page.js"
+  "/service/Pages/page": "app/service/Pages/page.js",
+  "/service/Pages/install/process/page": "app/service/Pages/install/process/page.js",
+  "/service/Pages/install/process/error.html/page": "app/service/Pages/install/process/error.html/page.js"
 }

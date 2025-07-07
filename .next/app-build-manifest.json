@@ -11,20 +11,25 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/service/page": [
+    "/service/Pages/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/service/page.js"
+      "static/chunks/app/service/Pages/page.js"
     ],
-    "/disclaimer/page": [
+    "/service/Pages/install/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/disclaimer/page.js"
+      "static/chunks/app/service/Pages/install/page.js"
     ],
-    "/privacy/page": [
+    "/service/Pages/install/process/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/privacy/page.js"
+      "static/chunks/app/service/Pages/install/process/page.js"
+    ],
+    "/service/Pages/install/process/error.html/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/service/Pages/install/process/error.html/page.js"
     ]
   }
 }
