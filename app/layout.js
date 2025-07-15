@@ -60,15 +60,28 @@ export default function RootLayout({ children }) {
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-17332366895"
         />
-        <Script id="gtag-init" strategy="afterInteractive">
+        <Script id="gtag-init-1" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'AW-17332366895');
-
             console.log("✅ Google Tag (AW-17332366895) initialized successfully.");
+          `}
+        </Script>
+
+        {/* ✅ Google tag (gtag.js) for AW-17332695926 */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17332695926"
+        />
+        <Script id="gtag-init-2" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17332695926');
+            console.log("✅ Google Tag (AW-17332695926) initialized successfully.");
           `}
         </Script>
 
